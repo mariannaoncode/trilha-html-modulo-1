@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo I - Primeiros Passos com HTML | Dio</title>
+</head>
+<body>
+    <h1>Primeiros Passos com HTML</h1>
+    <hr />
+    <h2>Índice</h2>
+    <p><strong><u>O que quer saber?</u></strong> Clique em uma das opções abaixo para saber mais.</p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <p>A <strong><u>história dos computadores</u></strong> começou com máquinas simples de cálculo, como o ábaco, e evoluiu para computadores eletrônicos modernos. Ao longo dos anos, a tecnologia passou por diversas gerações, cada uma marcada por avanços como o uso de transistores, circuitos integrados e microprocessadores. Para saber mais, acesse o artigo do <a href="https://blog.portaleducacao.com.br/historia-da-informatica/" target="_blank">Portal Educação</a>.</p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>Um <strong><i>client</i></strong> é um dispositivo ou software que solicita serviços de um servidor. Por exemplo, quando acessamos um site pelo navegador, o navegador atua como um <u>cliente</u>, pedindo os dados do servidor. Para mais detalhes, veja <a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Um%20servidor%20%C3%A9%20um%20recurso,como%20%E2%80%9Ccliente%2Dservidor%E2%80%9D." target="_blank">Controle Net</a>.</p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>Um <strong><u>servidor</u></strong> é um sistema responsável por fornecer recursos, dados ou serviços a outros computadores, chamados de clientes. Ele pode ser um computador físico ou um serviço em nuvem. Saiba mais sobre servidores neste <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server" target="_blank"> artigo</a>.</p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <p>Um documento HTML básico começa com a declaração !DOCTYPE html, seguida pelas tags <strong>html</strong>, <strong>head</strong> e <strong>body</strong>. Dentro do <i>head</i> ficam informações como o título e metadados. Já o <i>body</i> contém o conteúdo da página. Veja um exemplo completo aqui na <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank"> MDN</a>.</p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>As listas <strong>ordenadas</strong> (usando a tag ol) possuem uma sequência numérica ou alfabética. Já as listas <i>não ordenadas</i> (usando a tag ul) usam marcadores simples. Ambas usam <u>li</u> para os itens. Veja mais sobre isso neste <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">artigo</a>.</p>
+    <p><a href="#indice">Voltar ao índice</a></p>
+
+    <h2 id="referencias">Links de referências</h2>
+    <p><strong><u>Algumas referencias utilizadas:</u></strong> 
+    <ul>
+        <li><a href="https://www.dio.me" target="_blank">Dio.me</a></li>
+        <li><a href="https://blog.portaleducacao.com.br/historia-da-informatica/" target="_blank">Historia da Informática | Portal Educação</a></li>
+        <li><a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Um%20servidor%20%C3%A9%20um%20recurso,como%20%E2%80%9Ccliente%2Dservidor%E2%80%9D.">Cliente-Servidor, uma estrutura lógica para a computação centralizada | Controle Net</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server">O que é um servidor web? | MDN</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">HTML basico | MDN</a></li>
+        <li><a href="https://www.w3schools.com/html/html_lists.asp" trget="_blank">Listas HTML | w3schools</a></li>
+
+    </ul>
+
+    <p id="indice"><a href="#topo">Voltar ao topo</a></p>
+</body>
+</html>
